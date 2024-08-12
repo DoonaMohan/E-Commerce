@@ -1,0 +1,133 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navTop {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(105, 105, 105);
+  align-items: center;
+}
+
+.navBottom {
+  display: flex;
+  gap: 20px;
+  color: white;
+  /* background: linear-gradient(rgb(113, 134, 134), black); */
+  background: radial-gradient(circle, rgb(38, 148, 115), rgb(59, 59, 56));
+}
+
+.logo {
+  flex: 3;
+  text-align: left;
+}
+.searchBox {
+  flex: 2;
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 10px;
+  align-items: center;
+  height: 50px;
+}
+
+.searchIcon {
+  cursor: pointer;
+  color: black;
+}
+.form-control {
+  flex: 1;
+}
+
+.linkText {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+.linkText:hover {
+  color: rgb(203, 219, 214);
+  font-weight: bold;
+}
+
+.linkText:focus {
+  background-color: transparent;
+  color: rgb(40, 58, 51);
+}
+
+.cart {
+  cursor: pointer;
+  background-color: black;
+  color: black;
+}
+.cart NavLink {
+  text-decoration: none;
+}
+.cart span:nth-child(1) {
+  font-size: 30px;
+  color: white;
+}
+
+.cart span:nth-child(2) {
+  padding: 3px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+}
+
+.inputSearch {
+  width: 95%;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.inputSearch:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.login {
+  background-color: rgb(64, 92, 83);
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+.loginImage {
+  color: white;
+}
+.loginText {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.loginPopUp {
+  background-color: white;
+  width: 250px;
+  /* padding-block: 10px; */
+  border-radius: 10px;
+  display: none;
+  color: black;
+  text-align: left;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 10;
+  box-shadow: 5px 5px 8px 2px rgb(187, 184, 184);
+}
+.loginPopUp ul li {
+  list-style-type: none;
+  padding: 8px;
+}
+.login:hover .loginPopUp {
+  display: block;
+}

@@ -1,0 +1,116 @@
+/* Container Styles */
+.container {
+  background: linear-gradient(125deg, #609e84, #eee8e4);
+  padding: 30px;
+}
+
+/* CEO Container Styles */
+.ceoContainer {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+/* CEO Info Styles */
+.ceoInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+
+.ceoName {
+  font-size: 26px;
+  font-weight: bold;
+  color: #6aac96;
+}
+
+.ceoText {
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+
+/* About Container Styles */
+.aboutContainer {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  background: url("https://tse3.mm.bing.net/th?id=OIP.WPCEQNQufz19eWGw8-dUBQHaEE&pid=Api&P=0&h=220")
+    center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutText p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #333;
+}
+
+/* Meet Our Leaders Section */
+.meetOurLeadersWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  background-color: #e1f5ee;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meetOurLeaders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Leader Styles */
+.leader {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leader:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leaderImage {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.leaderImage img {
+  width: 100%;
+  height: auto;
+}
+
+.leaderName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.leaderDesignation {
+  font-size: 14px;
+  color: #777;
+}

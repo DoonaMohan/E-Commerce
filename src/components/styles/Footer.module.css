@@ -1,0 +1,64 @@
+.footerClass {
+  background-color: black;
+  color: white;
+}
+
+.topFooter {
+  padding: 20px;
+}
+.linkHeading {
+  color: #878787;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  text-align: left;
+  line-height: 2;
+  display: block;
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mailUs {
+  color: white;
+  text-align: left;
+  line-height: 1.5;
+  display: block;
+  font-weight: 400;
+}
+.phoneNumber {
+  color: rgb(124, 124, 247);
+  cursor: pointer;
+}
+.bottomFooter {
+}
+.iconName {
+  color: white;
+  padding: 15px;
+}
+.copyright {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.social {
+  color: #878787;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 20px;
+}

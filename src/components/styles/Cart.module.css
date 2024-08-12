@@ -1,0 +1,149 @@
+.cartContainer {
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.cartHeading {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.cartWrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.cartSummary {
+  background-color: rgb(248, 244, 244);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  padding: 20px;
+  height: fit-content;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #333;
+  text-align: left;
+}
+.cartItem {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 20px;
+  color: #333;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cartItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.productImage {
+  border-radius: 10px;
+}
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.productQuantity {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.quantityTitle {
+  font-size: 14px;
+  color: #666;
+}
+.updateQuantity {
+  padding: 8px 12px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.updateQuantity:hover {
+  background-color: #ccc;
+}
+.quantityValue {
+  font-size: 16px;
+  font-weight: bold;
+}
+.itemPrice {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+.deleteCartProduct {
+  padding: 8px 12px;
+  border: none;
+  color: #575050;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+.deleteCartProduct:hover {
+  color: #d32f2f;
+}
+.totalPrice {
+  font-weight: 800;
+  font-size: 20px;
+  color: #444;
+  margin-top: 20px;
+  text-align: right;
+}
+.cartButton {
+  padding: 10px 40px;
+  border: none;
+  color: #f0eaea;
+  background-color: #376b67;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.emi {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid rgb(67, 112, 105);
+}
+.emiText {
+  font-size: larger;
+}
+.rightChevron {
+  width: 8px;
+  height: auto;
+  fill: #212121;
+  transform: rotate(180deg);
+}
+
+.emi:hover {
+  border-width: 3px;
+  cursor: pointer;
+}
